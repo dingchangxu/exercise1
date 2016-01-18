@@ -55,10 +55,6 @@ html {
     font-size: 5em;
 }
 
-.btn:hover p {
-    display: none;
-}
-
 .btn:hover i {
     display: none;
 }

@@ -29,29 +29,30 @@ html {
     color: #000;
     font-weight: bold;
     text-decoration: none;
-    padding: 1.5em 1.5em;
     display: inline-block;
     text-align: center;
     width: 100%;
     color: black;
     
-
+    
 }
 
 .btn:hover,
 .btn:active,
 .btn:focus {
     position: relative;
-    padding: 3.5em 3.5em;
+    padding: 5.5em .5em;
+    padding-top: 0;
     background-image: url("../imag/owl-01.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: local; 
+    background-size: contain;
 }
 
 .btn i{
     vertical-align: middle;
-    width: 2em;
+    font-size: 5em;
 }
 
 .btn:hover p {
@@ -60,8 +61,4 @@ html {
 
 .btn:hover i {
     display: none;
-}
-
-.i {
-    width: 3em 3em;
 }

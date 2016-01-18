@@ -6,46 +6,62 @@
 
 html {
 	box-sizing: border-box;
-
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
     font-family: sans-serif;
+    background-color: #aaa;
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
 }
 
+.h1 {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
 .btn {
     color: #000;
     font-weight: bold;
     text-decoration: none;
-    padding: .5em .5em;
+    padding: 1.5em 1.5em;
     display: inline-block;
     text-align: center;
+    width: 100%;
+    color: black;
+    
 
 }
 
 .btn:hover,
 .btn:active,
-.btn:focus{
-    background-color: #aaa;
-    border-radius: 99px;
-    padding-top: 4.75em;
+.btn:focus {
     position: relative;
-    text-transform: uppercase;
+    padding: 3.5em 3.5em;
     background-image: url("../imag/owl-01.svg");
     background-repeat: no-repeat;
-    background-position: center .5rem;
-    background-attachment: local;
-    
+    background-position: center;
+    background-attachment: local; 
 }
 
 .btn i{
     vertical-align: middle;
-    padding-right: 3px;
+    width: 2em;
 }
 
+.btn:hover p {
+    display: none;
+}
 
+.btn:hover i {
+    display: none;
+}
+
+.i {
+    width: 3em 3em;
+}
